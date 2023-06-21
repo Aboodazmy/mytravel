@@ -1,0 +1,33 @@
+.item-loop .list-star {
+  display: inline-block;
+  line-height: 13px;
+  position: relative;
+}
+.item-loop .list-star .booking-item-rating-stars {
+  padding: 0;
+  margin: 0;
+  width: 90px;
+}
+.item-loop .list-star .booking-item-rating-stars:before, .item-loop .list-star .booking-item-rating-stars:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.item-loop .list-star .booking-item-rating-stars li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+.item-loop .list-star .booking-item-rating-stars li:last-child {
+  margin-right: 0;
+}
+.item-loop .list-star .booking-item-rating-stars li .fa {
+  font-size: 15px;
+}
+.item-loop .list-star .booking-item-rating-stars-active {
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}/*# sourceMappingURL=loop.css.map */

@@ -1,0 +1,114 @@
+.smart-search, .input-search {
+  position: relative;
+}
+.smart-search:after, .input-search:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #5191fa;
+  border-top: 0.4em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+}
+.smart-search:not(.normal-control) .parent_text, .smart-search:not(.normal-control) .form-control, .input-search:not(.normal-control) .parent_text, .input-search:not(.normal-control) .form-control {
+  border: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #5191FA;
+  position: relative;
+  left: 0 !important;
+  padding: 0 !important;
+  height: 25px;
+  background: transparent;
+}
+.smart-search:not(.normal-control) .parent_text::-moz-placeholder, .smart-search:not(.normal-control) .form-control::-moz-placeholder, .input-search:not(.normal-control) .parent_text::-moz-placeholder, .input-search:not(.normal-control) .form-control::-moz-placeholder {
+  color: #5191fa;
+  opacity: 1;
+}
+.smart-search:not(.normal-control) .parent_text::placeholder, .smart-search:not(.normal-control) .form-control::placeholder, .input-search:not(.normal-control) .parent_text::placeholder, .input-search:not(.normal-control) .form-control::placeholder {
+  color: #5191fa;
+  opacity: 1;
+}
+.smart-search:not(.normal-control) .parent_text[readonly], .smart-search:not(.normal-control) .form-control[readonly], .input-search:not(.normal-control) .parent_text[readonly], .input-search:not(.normal-control) .form-control[readonly] {
+  cursor: pointer;
+}
+.smart-search .bravo-autocomplete, .input-search .bravo-autocomplete {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  position: absolute;
+  background: #fff;
+  padding: 0;
+  top: 100%;
+  margin-top: 15px;
+  left: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid 1px #dee2e6;
+  z-index: 20;
+  max-height: 300px;
+  overflow-y: auto;
+  right: -15px;
+}
+.smart-search .bravo-autocomplete.show, .input-search .bravo-autocomplete.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (max-width: 1023px) {
+  .smart-search .bravo-autocomplete, .input-search .bravo-autocomplete {
+    margin-top: 10px;
+    border-radius: 0;
+    right: 0;
+    left: -55px;
+    background: #f1f1f1;
+  }
+}
+.smart-search .bravo-autocomplete .item, .input-search .bravo-autocomplete .item {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+.smart-search .bravo-autocomplete .item:nth-child(2n), .input-search .bravo-autocomplete .item:nth-child(2n) {
+  background: #fff;
+}
+.smart-search .bravo-autocomplete .item:last-child, .input-search .bravo-autocomplete .item:last-child {
+  margin-bottom: 0;
+}
+.smart-search .bravo-autocomplete .item .h-line, .input-search .bravo-autocomplete .item .h-line {
+  font-weight: 500;
+}
+.smart-search .bravo-autocomplete .item i, .input-search .bravo-autocomplete .item i {
+  margin-right: 5px;
+  font-size: 16px;
+  position: relative;
+  top: 1px;
+  color: #828282;
+}
+.smart-search .bravo-autocomplete .item:hover, .input-search .bravo-autocomplete .item:hover {
+  background: #f5f4f7;
+}
+.smart-search .bravo-autocomplete .message, .input-search .bravo-autocomplete .message {
+  display: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #424242;
+}
+.smart-search .bravo-autocomplete.on-message .list-item, .input-search .bravo-autocomplete.on-message .list-item {
+  display: none;
+}
+.smart-search .bravo-autocomplete.on-message .message, .input-search .bravo-autocomplete.on-message .message {
+  display: block;
+}
+.smart-search.normal-control .form-control, .input-search.normal-control .form-control {
+  padding-right: 25px;
+}
+.smart-search.normal-control .bravo-autocomplete, .input-search.normal-control .bravo-autocomplete {
+  margin-top: 0px;
+}
+.smart-search.normal-control:after, .input-search.normal-control:after {
+  color: #4b4b4b;
+  top: 23px;
+  right: 15px;
+}/*# sourceMappingURL=smart-search.css.map */
