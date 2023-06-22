@@ -1,4 +1,4 @@
-9999999999s:19818:"body{
+9999999999s:19935:"body{
                                                                                                                         }
 
     .bravo_wrap .page-template-content .bravo-unmissable-destinations .bravo-list-service .style_2 .item-content .item-title > a:hover,
@@ -413,6 +413,8 @@
         stroke: #5191FA!important;
     }
 
-    
+    .bravo_banner .img-fluid {width:100% !important; height:540px !important;}
+
+.owner-info { display:none !important;}
     
 ";

@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-    <div class="bravo-menu-mobile" style="display:none;">
+    <div class="bravo-menu-mobile" >
         <div class="user-profile">
             <div class="b-close"><i class="icofont-scroll-left"></i></div>
             <div class="avatar"></div>
