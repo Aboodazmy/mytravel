@@ -16,7 +16,7 @@ $theme = \Modules\Theme\ThemeManager::currentProvider();
             <span class="btn-toggle-admin-menu btn btn-sm btn-link"><i class="icon ion-ios-menu"></i></span>
         </div>
         <div class="header-widget search-widget">
-            {{--<input type="text" class="input-search form-control">--}}
+            <input type="text" class="input-search form-control">
             <a href="{{url('/')}}" class="btn btn-link" target="_blank"><i class="fa fa-eye"></i> {{__('Home')}}
             </a>
         </div>
