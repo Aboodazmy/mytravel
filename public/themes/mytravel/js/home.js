@@ -1564,5 +1564,3 @@ jQuery(function($){
     });
 
 });
-
-

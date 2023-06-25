@@ -8,7 +8,7 @@ $theme = \Modules\Theme\ThemeManager::currentProvider();
 ?>
 
 <div class="header-logo flex-shrink-0">
-    <h3 class="logo-text"><a href="{{route('admin.index')}}">{{$theme::$name}} <span class="app-version">{{$theme::$version}}</span></a></h3>
+    <h3 class="logo-text"><a href="{{route('admin.index')}}"> MemnonTravel</a></h3>
 </div>
 <div class="header-widgets d-flex flex-grow-1">
     <div class="widgets-left d-flex flex-grow-1 align-items-center">

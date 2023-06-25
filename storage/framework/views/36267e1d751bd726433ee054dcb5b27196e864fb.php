@@ -121,6 +121,13 @@
 <script src="<?php echo e(asset('themes/mytravel/libs/slick/slick.js')); ?>"></script>
 
 
+
+
+
+
+
+
+
 <?php if(Auth::id()): ?>
 	<script src="<?php echo e(asset('module/media/js/browser.js?_ver='.config('app.asset_version'))); ?>"></script>
 <?php endif; ?>

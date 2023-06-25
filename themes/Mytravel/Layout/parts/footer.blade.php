@@ -113,6 +113,13 @@
 <script src="{{ asset('themes/mytravel/libs/fancybox/jquery.fancybox.min.js') }}"></script>
 <script src="{{ asset('themes/mytravel/libs/slick/slick.js') }}"></script>
 
+{{-- memnon custom js  --}}
+
+{{-- <script src="{{ asset('themes/mytravel/memnon/js/swiper-bundle-min.js') }}"></script> --}}
+
+
+
+
 
 @if(Auth::id())
 	<script src="{{ asset('module/media/js/browser.js?_ver='.config('app.asset_version')) }}"></script>

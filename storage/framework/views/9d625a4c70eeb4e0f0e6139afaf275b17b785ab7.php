@@ -176,12 +176,11 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 copy-right" >
-                        <?php echo e(date('Y')); ?> &copy; <?php echo e(__('Booking Core by')); ?> <a href="<?php echo e(__('https://www.bookingcore.org')); ?>" target="_blank"><?php echo e(__('BookingCore Team')); ?></a>
+                        <?php echo e(date('Y')); ?> &copy; <?php echo e(__('MemnonTravel by')); ?> <a href="<?php echo e(__('https://www.memnontravel.com')); ?>" target="_blank"><?php echo e(__('SavvyHost Team')); ?></a>
                     </div>
                     <div class="col-md-6">
                         <div class="text-md-right footer-links d-none d-sm-block">
-                            <a href="<?php echo e(__('https://www.bookingcore.org')); ?>" target="_blank"><?php echo e(__('About Us')); ?></a>
-                            <a href="<?php echo e(__('https://m.me/bookingcore')); ?>" target="_blank"><?php echo e(__('Contact Us')); ?></a>
+                        Powered By <a href="https://savvyhost.io">SavvyHost</a>
                         </div>
                     </div>
                 </div>

@@ -38,7 +38,12 @@
     
 
     <link href="<?php echo e(asset('themes/mytravel/memnon/css/custom.css')); ?>" rel="stylesheet">
-    <link href="<?php echo e(asset('themes/mytravel/memnon/css/swiper-bundle.min.css')); ?>" rel="stylesheet">
+    
+
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
 
 
 
@@ -106,6 +111,9 @@
 
     <?php event(new \Modules\Layout\Events\LayoutEndBody()); ?>
     <?php echo $__env->make('demo_script', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+<script src="<?php echo e(asset('themes/mytravel/memnon/js/custom.js')); ?>"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>
 <?php /**PATH C:\Users\m\Desktop\MyTravel\themes/Mytravel/Layout/app.blade.php ENDPATH**/ ?>

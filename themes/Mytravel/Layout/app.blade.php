@@ -38,7 +38,12 @@
     {{-- memnon custom style --}}
 
     <link href="{{ asset('themes/mytravel/memnon/css/custom.css')}}" rel="stylesheet">
-    <link href="{{ asset('themes/mytravel/memnon/css/swiper-bundle.min.css')}}" rel="stylesheet">
+    {{-- <link href="{{ asset('themes/mytravel/memnon/css/swiper-bundle.min.css')}}" rel="stylesheet"> --}}
+
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+        />
 
 
 
@@ -98,5 +103,8 @@
     {!! setting_item_with_lang_raw('footer_scripts') !!}
     @php event(new \Modules\Layout\Events\LayoutEndBody()); @endphp
     @include('demo_script')
+
+<script src="{{ asset('themes/mytravel/memnon/js/custom.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </body>
 </html>
