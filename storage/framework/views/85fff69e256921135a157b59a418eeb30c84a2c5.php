@@ -8,7 +8,8 @@
            <div class="ml-auto d-flex align-items-center">
                <div class="d-flex align-items-center text-white px-3">
                    <i class="flaticon-phone-call mr-2 ml-1 font-size-18"></i>
-                   <span class="d-inline-block font-size-14 mr-1"><?php echo e(setting_item("phone_contact")); ?></span>
+                   <span class="d-inline-block font-size-14 mr-1"><a class="text-white" href="tel:+201022221525">
+(+20) 102-222-1525</a></span>
                </div>
                <?php echo $__env->make('Core::frontend.currency-switcher', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                <?php echo $__env->make('Language::frontend.switcher', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

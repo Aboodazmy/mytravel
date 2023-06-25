@@ -35,6 +35,19 @@
     <link href="<?php echo e(asset('themes/mytravel/dist/frontend/css/app.css?_ver='.config('app.asset_version'))); ?>" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="<?php echo e(asset("libs/daterange/daterangepicker.css")); ?>" >
+    
+
+    <link href="<?php echo e(asset('themes/mytravel/memnon/css/custom.css')); ?>" rel="stylesheet">
+    <link href="<?php echo e(asset('themes/mytravel/memnon/css/swiper-bundle.min.css')); ?>" rel="stylesheet">
+
+
+
+
+
+
+
+
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <!-- Google Fonts -->
@@ -57,6 +70,7 @@
     <!-- Styles -->
     <?php echo $__env->yieldPushContent('css'); ?>
     
+
     <link href="<?php echo e(route('core.style.customCss')); ?>" rel="stylesheet">
     <link href="<?php echo e(asset('libs/carousel-2/owl.carousel.css')); ?>" rel="stylesheet">
     <?php if(setting_item_with_lang('enable_rtl')): ?>

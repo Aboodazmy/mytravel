@@ -56,7 +56,7 @@
                 </div>
             </div>
             @endif
-            {{-- <div class="col-md-6 field-address-line-1">
+            <div class="col-md-6 field-address-line-1">
                 <div class="form-group">
                     <label >{{__("Address line 1")}} </label>
                     <input type="text" placeholder="{{__("Address line 1")}}" class="form-control" value="{{$user->address ?? ''}}" name="address_line_1">
@@ -67,7 +67,7 @@
                     <label >{{__("Address line 2")}} </label>
                     <input type="text" placeholder="{{__("Address line 2")}}" class="form-control" value="{{$user->address2 ?? ''}}" name="address_line_2">
                 </div>
-            </div> --}}
+            </div>
             <div class="col-md-6 field-city">
                 <div class="form-group">
                     <label >{{__("City")}} </label>

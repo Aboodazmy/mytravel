@@ -35,6 +35,19 @@
     <link href="{{ asset('themes/mytravel/dist/frontend/css/app.css?_ver='.config('app.asset_version')) }}" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="{{ asset("libs/daterange/daterangepicker.css") }}" >
+    {{-- memnon custom style --}}
+
+    <link href="{{ asset('themes/mytravel/memnon/css/custom.css')}}" rel="stylesheet">
+    <link href="{{ asset('themes/mytravel/memnon/css/swiper-bundle.min.css')}}" rel="stylesheet">
+
+
+
+
+
+
+
+
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <!-- Google Fonts -->
@@ -55,6 +68,7 @@
     <!-- Styles -->
     @stack('css')
     {{--Custom Style--}}
+
     <link href="{{ route('core.style.customCss') }}" rel="stylesheet">
     <link href="{{ asset('libs/carousel-2/owl.carousel.css') }}" rel="stylesheet">
     @if(setting_item_with_lang('enable_rtl'))
